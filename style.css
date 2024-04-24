@@ -1,0 +1,69 @@
+header {
+    background-color: #333;
+    height: auto;
+ 
+}
+
+.main {
+    background-color: teal;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    height: 300px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navBarTop {
+ 
+    padding: 20px;
+    color: white;
+}
+
+
+
+.navBarTopLi {
+    display: inline-block;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navBarTopLi a {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+.navBarTopLi a:hover {
+   font-weight: 800;
+   background-color: aliceblue;
+    color: black;
+    padding: 5%;
+}
+
+.mainGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.info {
+    background-color: white;
+    padding: 10%;
+    margin: 10px;
+    font-size: 24px;
+    
+        font-family: "Jersey 10", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
